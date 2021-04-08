@@ -1572,7 +1572,7 @@ footer {
 .about a {
     border: 2px solid whitesmoke;
     font-size: 40px;
-    padding: 0 0 10px;
+    padding:0px;
     color: whitesmoke;
     text-decoration: none;
     font-style: italic;
