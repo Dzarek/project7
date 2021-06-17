@@ -13,6 +13,8 @@ const aplikacjaPogodowa = document.querySelector(".aplikacjaPogodowa");
 const ninjaVsZombie = document.querySelector(".ninjaVsZombie");
 const dorotaSzydełkuje = document.querySelector(".dorotaSzydełkuje");
 const jjApartments = document.querySelector(".jjApartments");
+const buyList = document.querySelector(".buyList");
+const cocktailsChill = document.querySelector(".cocktails-chill");
 
 wisielec.addEventListener("click", () => {
   // video.style.opacity = 0.8;
@@ -123,6 +125,24 @@ jjApartments.addEventListener("click", () => {
     "Strona internetowa hotelu/apartamentów do wynajęcia. Umożliwia sprawdzenie pokoi i ich filtrowanie, oraz zarezerwowanie pokoju.";
   play.addEventListener("click", () => {
     window.location = "https://jjapartments2.netlify.app/";
+  });
+});
+buyList.addEventListener("click", () => {
+  // video.style.opacity = 0.6;
+  video.style.backgroundImage = "url('images/12a.jpg')";
+  text.style.fontSize = "20px";
+  text.innerHTML = "Aplikacja do robienia listy zakupów.";
+  play.addEventListener("click", () => {
+    window.location = "https://buylist.netlify.app/";
+  });
+});
+cocktailsChill.addEventListener("click", () => {
+  // video.style.opacity = 0.6;
+  video.style.backgroundImage = "url('images/13a.jpg')";
+  text.style.fontSize = "20px";
+  text.innerHTML = "Aplikacja do przepisów koktaili.";
+  play.addEventListener("click", () => {
+    window.location = "https://cocktails-chill.netlify.app/";
   });
 });
 
