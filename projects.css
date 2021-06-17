@@ -306,6 +306,16 @@ a p {
     animation: moveWrap 2s linear infinite alternate-reverse;
 }
 
+.buyList {
+    background-image: url(images/12a.jpg);
+    animation: moveWrap 2s linear infinite alternate;
+}
+
+.cocktails-chill {
+    background-image: url(images/13a.jpg);
+    animation: moveWrap 2s linear infinite alternate;
+}
+
 
 
 
